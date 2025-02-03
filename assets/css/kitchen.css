@@ -1,0 +1,158 @@
+/*! Optimized CSS - Kitchen Chaos Theme */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+html {
+    line-height: 1.15;
+    text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1.5;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    background: #f8f9fa;
+}
+
+h1 {
+    margin: 0.67em 0;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.header {
+    background: #007bff;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 400;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.description {
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.gallery-section {
+    background: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video-section {
+    background: #cfe6ff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.video-section video {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.github-section {
+    background: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.github-link {
+    display: inline-block;
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.github-link:hover {
+    background: #222;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: #fff;
+}
+
+/* Modal Styling 
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/* Responsive Fixes 
+@media (max-width: 768px) {
+    h1 { font-size: 2rem; }
+    .container { padding: 10px; }
+    .gallery img { width: 150px; }
+    .modal-content { width: 95%; }
+}
+*/
